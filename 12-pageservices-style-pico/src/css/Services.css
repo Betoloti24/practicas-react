@@ -1,0 +1,95 @@
+/* TITULOS  */
+h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* LISTA DE SERVICIOS */
+.service {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.service-title {
+    text-align: center;
+}
+
+.service-title h3 { 
+    margin: 0px;
+    padding: 0px;
+}
+
+.service img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    margin: 0px;
+}
+
+.text p {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ESTILOS DE LOS TESTIMONIOS */
+.testimonial {
+    display: inline-block;
+    box-sizing: border-box;
+    /* float:left; */
+}
+
+.testimonial img{
+    object-fit: cover;
+}
+
+.testimonial blockquote {
+    margin: 0px;
+    padding: 15px px;
+}
+
+/* ESTILOS DE ACCORDION */
+.accordion {
+    margin: 0 15px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.accordion summary {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.accordion form, .accordion p {
+    font-size: small !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: small !important;
+    max-height: 40px !important;
+}
+
+input[type="submit"], button {
+    width: 100%;
+    padding: 5px 30px !important;
+    margin: 0px 10px !important;
+    font-size: small !important;
+    max-height: 40px !important;
+}
+

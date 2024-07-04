@@ -1,0 +1,8 @@
+/* Centrar contenido horizontal y verticalmente, color de fondo y fuente de letra */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}

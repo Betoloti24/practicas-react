@@ -1,0 +1,8 @@
+/* Color de fondo al componente,  margen interno y externo*/
+
+.App {
+  background-color: #fff;
+  padding: 20px 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

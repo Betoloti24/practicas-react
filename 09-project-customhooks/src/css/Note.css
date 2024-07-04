@@ -1,0 +1,39 @@
+/* Establecer estilos para el componente Note */
+.note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.note h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.note .content {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.note .author {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.note .date {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    text-align: center;
+}

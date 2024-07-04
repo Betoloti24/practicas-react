@@ -1,0 +1,52 @@
+/* TITULOS  */
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+/* DASHBOARD */
+.dashboard {
+    margin: 20px 0px 10px 0px;
+}
+.filters {
+    grid-row: 1;
+    columns: 1;
+    /* border: blue 1px solid; */
+}
+.indicators {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    max-height: 666.45px;
+    overflow-y: scroll;
+}
+
+.indicators table tfoot {
+    display: table-caption !important;
+}
+
+.filters, .indicators {
+    margin: 0px 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .filters {
+        grid-row: 1;
+        grid-column: 1 / 4;
+        /* border: blue 1px solid; */
+    }
+    .indicators {
+        grid-column: 1 / 4;
+        grid-row: 2;
+        /* border: red 1px solid; */
+    }
+}

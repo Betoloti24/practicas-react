@@ -1,0 +1,26 @@
+/*hay una lista de items contenido en un listview*/
+/*el list-view debe establecer que para la list item, se establecera una distribucion de 2 items por fila*/
+/* .list-view .list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+} */
+
+
+/*el list item debe tener una distribucion de 2 items por fila*/
+.list-item {
+  display: inline;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.item-color {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  justify-content: center;
+  display: flex;
+}

@@ -1,0 +1,18 @@
+.filters {
+    grid-row: 1;
+    columns: 1;
+    /* border: blue 1px solid; */
+}
+
+.filters {
+    margin: 0px 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .filters {
+        grid-row: 1;
+        grid-column: 1 / 4;
+        /* border: blue 1px solid; */
+    }
+}

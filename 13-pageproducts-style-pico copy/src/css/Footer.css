@@ -1,0 +1,21 @@
+/* FOOTER */
+.footer {
+    background-color: #2A3141;
+    padding: 5px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 0px;
+    max-height: 25px;
+    font-size: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p {
+    margin: 0px;
+}
+
+/* LOGO*/
+.image {
+    max-width: 40px !important;
+}

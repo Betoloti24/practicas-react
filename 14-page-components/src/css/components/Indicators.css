@@ -1,0 +1,24 @@
+
+.indicators {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    max-height: 666.45px;
+    overflow-y: scroll;
+}
+
+.indicators table tfoot {
+    display: table-caption !important;
+}
+
+.indicators {
+    margin: 0px 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .indicators {
+        grid-column: 1 / 4;
+        grid-row: 2;
+        /* border: red 1px solid; */
+    }
+}

@@ -1,0 +1,18 @@
+/* Estilos para el botón de borrado de nota, color de fondo, borde y texto */
+
+.noteDeleteButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noteDeleteButton:hover {
+    background-color: darkred;
+}

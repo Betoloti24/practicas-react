@@ -1,0 +1,17 @@
+@use "sass:map";
+@use "@picocss/pico/scss/pico" as * with (
+    $theme-color: "pink", // amber, azure, blue, cyan, fuchsia, green, grey, indigo, jade, lime, orange, pink, pumpkin, purple, red, sand, slate, violet, yellow, zinc
+    $semantic-root-element: "#root",
+    $enable-semantic-container: true,
+    $enable-classes: false,
+);
+
+#root {
+  > main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: map.get(map.get($breakpoints, "sm"), "viewport");
+  }
+}

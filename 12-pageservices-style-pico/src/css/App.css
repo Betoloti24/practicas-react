@@ -1,0 +1,6 @@
+main {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    max-width: 80% !important;
+}
